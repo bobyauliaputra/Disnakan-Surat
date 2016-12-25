@@ -28,6 +28,8 @@ Partial Class Dashboard
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Splitter1 = New System.Windows.Forms.Splitter()
@@ -38,11 +40,9 @@ Partial Class Dashboard
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Splitter4 = New System.Windows.Forms.Splitter()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Splitter5 = New System.Windows.Forms.Splitter()
         Me.PanelGridView = New System.Windows.Forms.Panel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Splitter5 = New System.Windows.Forms.Splitter()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -50,8 +50,8 @@ Partial Class Dashboard
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.MenuStrip1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.PanelGridView.SuspendLayout()
@@ -94,11 +94,23 @@ Partial Class Dashboard
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.AboutToolStripMenuItem.Text = "Help"
         '
+        'SettingToolStripMenuItem
+        '
+        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
+        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(118, 22)
+        Me.SettingToolStripMenuItem.Text = "&Setting"
+        '
+        'TentangToolStripMenuItem
+        '
+        Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
+        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(118, 22)
+        Me.TentangToolStripMenuItem.Text = "&Tentang"
+        '
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.FlowLayoutPanel1.BackgroundImage = Global.Disnakan_Surat.My.Resources.Resources.toolbar_bg
+        Me.FlowLayoutPanel1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.toolbar_bg
         Me.FlowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.FlowLayoutPanel1.Controls.Add(Me.Button1)
         Me.FlowLayoutPanel1.Controls.Add(Me.Splitter1)
@@ -118,7 +130,7 @@ Partial Class Dashboard
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.Disnakan_Surat.My.Resources.Resources.home_icon
+        Me.Button1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.home_icon
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -227,6 +239,14 @@ Partial Class Dashboard
         Me.Button5.Text = "UPT LAB FORMULIR 4"
         Me.Button5.UseVisualStyleBackColor = False
         '
+        'Splitter5
+        '
+        Me.Splitter5.Location = New System.Drawing.Point(479, 3)
+        Me.Splitter5.Name = "Splitter5"
+        Me.Splitter5.Size = New System.Drawing.Size(3, 57)
+        Me.Splitter5.TabIndex = 9
+        Me.Splitter5.TabStop = False
+        '
         'PanelGridView
         '
         Me.PanelGridView.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -248,26 +268,6 @@ Partial Class Dashboard
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(784, 393)
         Me.DataGridView1.TabIndex = 0
-        '
-        'SettingToolStripMenuItem
-        '
-        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
-        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SettingToolStripMenuItem.Text = "&Setting"
-        '
-        'TentangToolStripMenuItem
-        '
-        Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
-        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.TentangToolStripMenuItem.Text = "&Tentang"
-        '
-        'Splitter5
-        '
-        Me.Splitter5.Location = New System.Drawing.Point(479, 3)
-        Me.Splitter5.Name = "Splitter5"
-        Me.Splitter5.Size = New System.Drawing.Size(3, 57)
-        Me.Splitter5.TabIndex = 9
-        Me.Splitter5.TabStop = False
         '
         'FlowLayoutPanel2
         '
@@ -344,6 +344,15 @@ Partial Class Dashboard
         Me.DateTimePicker1.Size = New System.Drawing.Size(120, 24)
         Me.DateTimePicker1.TabIndex = 16
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(519, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(0, 18)
+        Me.Label4.TabIndex = 17
+        '
         'DateTimePicker2
         '
         Me.DateTimePicker2.CustomFormat = "dd/MMM/yyyy"
@@ -353,15 +362,6 @@ Partial Class Dashboard
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(120, 24)
         Me.DateTimePicker2.TabIndex = 18
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(519, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(0, 18)
-        Me.Label4.TabIndex = 17
         '
         'Dashboard
         '

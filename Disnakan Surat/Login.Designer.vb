@@ -60,7 +60,7 @@ Partial Class Login
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.Disnakan_Surat.My.Resources.Resources.close2
+        Me.Button1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.close2
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -87,9 +87,9 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.BackColor = System.Drawing.Color.LightGray
-        Me.BackgroundImage = Global.Disnakan_Surat.My.Resources.Resources.Documents_icon
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.document_icon
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(277, 268)
         Me.ControlBox = False
         Me.Controls.Add(Me.lblError)

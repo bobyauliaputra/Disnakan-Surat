@@ -1,0 +1,13 @@
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\bin\Debug\Distanak Surat.exe.config
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\bin\Debug\Distanak Surat.exe
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\bin\Debug\Distanak Surat.pdb
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\bin\Debug\Distanak Surat.xml
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.vbprojResolveAssemblyReference.cache
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.Dashboard.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.Login.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.Resources.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.FormulirPenerimaanContohUjiSampel.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.vbproj.GenerateResource.Cache
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.exe
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.xml
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.pdb

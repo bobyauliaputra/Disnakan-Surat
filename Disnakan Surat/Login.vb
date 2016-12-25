@@ -1,5 +1,5 @@
 ﻿Imports System.Data.SQLite
-Imports Disnakan_Surat.Connection
+Imports Distanak_Surat.Connection
 
 Public Class Login
     Dim c As New Connection

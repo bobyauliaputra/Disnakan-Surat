@@ -10,3 +10,4 @@ C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Dis
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Disnakan Surat.xml
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Disnakan Surat.pdb
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\bin\Debug\Disnakan Surat.exe.config
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\bin\Debug\Distanak Surat.exe.config

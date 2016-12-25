@@ -8,4 +8,8 @@
         Login.Dispose()
     End Sub
 
+    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        FormulirPenerimaanContohUjiSampel.Show()
+        Me.Enabled = False
+    End Sub
 End Class
