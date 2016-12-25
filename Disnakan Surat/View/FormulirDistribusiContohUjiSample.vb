@@ -1,4 +1,4 @@
-﻿Public Class DistribusiContohUjiSample
+﻿Public Class FormulirDistribusiContohUjiSample
 
     Private Sub DistribusiContohUjiSample_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Dim g As New General

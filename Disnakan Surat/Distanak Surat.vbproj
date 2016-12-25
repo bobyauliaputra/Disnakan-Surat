@@ -110,10 +110,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="View\DistribusiContohUjiSample.Designer.vb">
-      <DependentUpon>DistribusiContohUjiSample.vb</DependentUpon>
+    <Compile Include="View\FormulirDistribusiContohUjiSample.Designer.vb">
+      <DependentUpon>FormulirDistribusiContohUjiSample.vb</DependentUpon>
     </Compile>
-    <Compile Include="View\DistribusiContohUjiSample.vb">
+    <Compile Include="View\FormulirDistribusiContohUjiSample.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormulirHasilUjiLaboratorium.Designer.vb">
+      <DependentUpon>FormulirHasilUjiLaboratorium.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormulirHasilUjiLaboratorium.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\FormulirPenerimaanContohUjiSampel.Designer.vb">
@@ -136,8 +142,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\DistribusiContohUjiSample.resx">
-      <DependentUpon>DistribusiContohUjiSample.vb</DependentUpon>
+    <EmbeddedResource Include="View\FormulirDistribusiContohUjiSample.resx">
+      <DependentUpon>FormulirDistribusiContohUjiSample.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormulirHasilUjiLaboratorium.resx">
+      <DependentUpon>FormulirHasilUjiLaboratorium.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormulirPenerimaanContohUjiSampel.resx">
       <DependentUpon>FormulirPenerimaanContohUjiSampel.vb</DependentUpon>

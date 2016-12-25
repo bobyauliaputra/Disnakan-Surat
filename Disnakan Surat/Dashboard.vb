@@ -9,12 +9,17 @@
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
-        FormulirPenerimaanContohUjiSampel.Show()
         Me.Enabled = False
+        FormulirPenerimaanContohUjiSampel.Show()
     End Sub
 
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        DistribusiContohUjiSample.Show()
         Me.Enabled = False
+        FormulirDistribusiContohUjiSample.Show()
+    End Sub
+
+    Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
+        Me.Enabled = False
+        FormulirHasilUjiLaboratorium.Show()
     End Sub
 End Class
