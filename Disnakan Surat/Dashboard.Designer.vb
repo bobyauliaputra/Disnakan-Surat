@@ -278,14 +278,14 @@ Partial Class Dashboard
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.BottomRight
         Me.Button2.Location = New System.Drawing.Point(100, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(82, 57)
+        Me.Button2.Size = New System.Drawing.Size(99, 57)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "UPT LAB FORMULIR 1"
+        Me.Button2.Text = "PENERIMAAN CONTOH UJI/SAMPLE"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Splitter2
         '
-        Me.Splitter2.Location = New System.Drawing.Point(188, 3)
+        Me.Splitter2.Location = New System.Drawing.Point(205, 3)
         Me.Splitter2.Name = "Splitter2"
         Me.Splitter2.Size = New System.Drawing.Size(3, 57)
         Me.Splitter2.TabIndex = 3
@@ -300,16 +300,16 @@ Partial Class Dashboard
         Me.Button3.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button3.Location = New System.Drawing.Point(197, 3)
+        Me.Button3.Location = New System.Drawing.Point(214, 3)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(82, 57)
+        Me.Button3.Size = New System.Drawing.Size(99, 57)
         Me.Button3.TabIndex = 4
-        Me.Button3.Text = "UPT LAB FORMULIR 2"
+        Me.Button3.Text = "DISTRIBUSI CONTOH UJI/SAMPLE"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Splitter3
         '
-        Me.Splitter3.Location = New System.Drawing.Point(285, 3)
+        Me.Splitter3.Location = New System.Drawing.Point(319, 3)
         Me.Splitter3.Name = "Splitter3"
         Me.Splitter3.Size = New System.Drawing.Size(3, 57)
         Me.Splitter3.TabIndex = 5
@@ -324,16 +324,16 @@ Partial Class Dashboard
         Me.Button4.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Black
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button4.Location = New System.Drawing.Point(294, 3)
+        Me.Button4.Location = New System.Drawing.Point(328, 3)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(82, 57)
+        Me.Button4.Size = New System.Drawing.Size(99, 57)
         Me.Button4.TabIndex = 6
-        Me.Button4.Text = "UPT LAB FORMULIR 3"
+        Me.Button4.Text = "HASIL UJI LABORATORIUM"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Splitter4
         '
-        Me.Splitter4.Location = New System.Drawing.Point(382, 3)
+        Me.Splitter4.Location = New System.Drawing.Point(433, 3)
         Me.Splitter4.Name = "Splitter4"
         Me.Splitter4.Size = New System.Drawing.Size(3, 57)
         Me.Splitter4.TabIndex = 7
@@ -348,16 +348,16 @@ Partial Class Dashboard
         Me.Button5.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button5.Location = New System.Drawing.Point(391, 3)
+        Me.Button5.Location = New System.Drawing.Point(442, 3)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(82, 57)
+        Me.Button5.Size = New System.Drawing.Size(99, 57)
         Me.Button5.TabIndex = 8
         Me.Button5.Text = "UPT LAB FORMULIR 4"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Splitter5
         '
-        Me.Splitter5.Location = New System.Drawing.Point(479, 3)
+        Me.Splitter5.Location = New System.Drawing.Point(547, 3)
         Me.Splitter5.Name = "Splitter5"
         Me.Splitter5.Size = New System.Drawing.Size(3, 57)
         Me.Splitter5.TabIndex = 9
