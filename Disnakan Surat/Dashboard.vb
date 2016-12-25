@@ -12,4 +12,9 @@
         FormulirPenerimaanContohUjiSampel.Show()
         Me.Enabled = False
     End Sub
+
+    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
+        DistribusiContohUjiSample.Show()
+        Me.Enabled = False
+    End Sub
 End Class

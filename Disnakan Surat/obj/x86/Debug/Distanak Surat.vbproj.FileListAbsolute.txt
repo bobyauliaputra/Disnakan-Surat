@@ -11,3 +11,4 @@ C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Dis
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.exe
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.xml
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.pdb
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.DistribusiContohUjiSample.resources

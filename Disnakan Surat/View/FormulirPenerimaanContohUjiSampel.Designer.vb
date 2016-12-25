@@ -61,6 +61,7 @@ Partial Class FormulirPenerimaanContohUjiSampel
         Me.Label18 = New System.Windows.Forms.Label()
         Me.btnSimpan = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label24 = New System.Windows.Forms.Label()
         Me.cbMenyetujuiMM = New System.Windows.Forms.CheckBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
@@ -73,7 +74,6 @@ Partial Class FormulirPenerimaanContohUjiSampel
         Me.tbHalaman = New System.Windows.Forms.TextBox()
         Me.tbNoBagian = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
         CType(Me.GridViewUjiSample, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -397,11 +397,11 @@ Partial Class FormulirPenerimaanContohUjiSampel
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(511, 130)
+        Me.Label14.Location = New System.Drawing.Point(508, 130)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(41, 14)
+        Me.Label14.Size = New System.Drawing.Size(44, 14)
         Me.Label14.TabIndex = 24
-        Me.Label14.Text = "No Epi"
+        Me.Label14.Text = "No. Epi"
         '
         'Label15
         '
@@ -477,6 +477,17 @@ Partial Class FormulirPenerimaanContohUjiSampel
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(785, 95)
         Me.Panel1.TabIndex = 0
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.Color.Transparent
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Tai Le", 8.0!)
+        Me.Label24.Location = New System.Drawing.Point(33, 57)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(274, 14)
+        Me.Label24.TabIndex = 40
+        Me.Label24.Text = "UPT LABORATORIUM VETERINER DAN KLINIK HEWAN"
         '
         'cbMenyetujuiMM
         '
@@ -606,17 +617,6 @@ Partial Class FormulirPenerimaanContohUjiSampel
         Me.Label1.Size = New System.Drawing.Size(369, 21)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "FORMULIR PENERIMAAN CONTOH UJI/SAMPEL"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.BackColor = System.Drawing.Color.Transparent
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Tai Le", 8.0!)
-        Me.Label24.Location = New System.Drawing.Point(81, 57)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(274, 14)
-        Me.Label24.TabIndex = 40
-        Me.Label24.Text = "UPT LABORATORIUM VETERINER DAN KLINIK HEWAN"
         '
         'FormulirPenerimaanContohUjiSampel
         '

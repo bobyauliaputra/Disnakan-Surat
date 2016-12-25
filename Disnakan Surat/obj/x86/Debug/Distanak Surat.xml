@@ -15,6 +15,10 @@ DistanakSurat
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:Distanak_Surat.My.Resources.Resources.Actions_go_next_view_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Distanak_Surat.My.Resources.Resources.bg1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -40,6 +44,10 @@ DistanakSurat
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Distanak_Surat.My.Resources.Resources.home_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Distanak_Surat.My.Resources.Resources.Right_2_icon">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
