@@ -13,3 +13,8 @@ C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Dis
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak Surat.pdb
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.FormulirDistribusiContohUjiSample.resources
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.FormulirHasilUjiLaboratorium.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.FormulirKesimpulanDiagnosa.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.PermintaanPengujianKeManajer.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.NilaiBMCMPanganAsalHewan.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.PermintaanPengujianKeFisikKimiawiMikrobiologi.resources

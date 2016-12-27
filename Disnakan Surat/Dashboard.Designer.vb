@@ -52,6 +52,15 @@ Partial Class Dashboard
         Me.Splitter4 = New System.Windows.Forms.Splitter()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Splitter5 = New System.Windows.Forms.Splitter()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Splitter6 = New System.Windows.Forms.Splitter()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Splitter7 = New System.Windows.Forms.Splitter()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Splitter8 = New System.Windows.Forms.Splitter()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Splitter9 = New System.Windows.Forms.Splitter()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.PanelGridView.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +73,7 @@ Partial Class Dashboard
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(784, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1184, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -114,7 +123,7 @@ Partial Class Dashboard
         Me.PanelGridView.Controls.Add(Me.DataGridView1)
         Me.PanelGridView.Location = New System.Drawing.Point(0, 157)
         Me.PanelGridView.Name = "PanelGridView"
-        Me.PanelGridView.Size = New System.Drawing.Size(784, 393)
+        Me.PanelGridView.Size = New System.Drawing.Size(1184, 393)
         Me.PanelGridView.TabIndex = 2
         '
         'DataGridView1
@@ -125,7 +134,7 @@ Partial Class Dashboard
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(784, 393)
+        Me.DataGridView1.Size = New System.Drawing.Size(1184, 393)
         Me.DataGridView1.TabIndex = 0
         '
         'FlowLayoutPanel2
@@ -238,9 +247,18 @@ Partial Class Dashboard
         Me.FlowLayoutPanel1.Controls.Add(Me.Splitter4)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button5)
         Me.FlowLayoutPanel1.Controls.Add(Me.Splitter5)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button6)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Splitter6)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button7)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Splitter7)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button8)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Splitter8)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button9)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Splitter9)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button10)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 27)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(784, 63)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(1184, 63)
         Me.FlowLayoutPanel1.TabIndex = 1
         '
         'Button1
@@ -352,7 +370,7 @@ Partial Class Dashboard
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(99, 57)
         Me.Button5.TabIndex = 8
-        Me.Button5.Text = "UPT LAB FORMULIR 4"
+        Me.Button5.Text = "KESIMPULAN/ DIAGNOSA"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Splitter5
@@ -363,11 +381,123 @@ Partial Class Dashboard
         Me.Splitter5.TabIndex = 9
         Me.Splitter5.TabStop = False
         '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.Black
+        Me.Button6.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button6.Location = New System.Drawing.Point(556, 3)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(99, 57)
+        Me.Button6.TabIndex = 10
+        Me.Button6.Text = "Permintaan Pengujian ke Manajer"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Splitter6
+        '
+        Me.Splitter6.Location = New System.Drawing.Point(661, 3)
+        Me.Splitter6.Name = "Splitter6"
+        Me.Splitter6.Size = New System.Drawing.Size(3, 57)
+        Me.Splitter6.TabIndex = 11
+        Me.Splitter6.TabStop = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button7.FlatAppearance.BorderSize = 0
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.Black
+        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button7.Location = New System.Drawing.Point(670, 3)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(99, 57)
+        Me.Button7.TabIndex = 12
+        Me.Button7.Text = "Permintaan Pengujian ke Mikrobiologi"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Splitter7
+        '
+        Me.Splitter7.Location = New System.Drawing.Point(775, 3)
+        Me.Splitter7.Name = "Splitter7"
+        Me.Splitter7.Size = New System.Drawing.Size(3, 57)
+        Me.Splitter7.TabIndex = 13
+        Me.Splitter7.TabStop = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button8.FlatAppearance.BorderSize = 0
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Tai Le", 7.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.Black
+        Me.Button8.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button8.Location = New System.Drawing.Point(784, 3)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(99, 57)
+        Me.Button8.TabIndex = 14
+        Me.Button8.Text = "Hasil Pengujian Produk Asal Hewan > Mikroba"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'Splitter8
+        '
+        Me.Splitter8.Location = New System.Drawing.Point(889, 3)
+        Me.Splitter8.Name = "Splitter8"
+        Me.Splitter8.Size = New System.Drawing.Size(3, 57)
+        Me.Splitter8.TabIndex = 15
+        Me.Splitter8.TabStop = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.Transparent
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button9.FlatAppearance.BorderSize = 0
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.ForeColor = System.Drawing.Color.Black
+        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button9.Location = New System.Drawing.Point(898, 3)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(99, 57)
+        Me.Button9.TabIndex = 16
+        Me.Button9.Text = "Nilai BCM Pangan Asal Hewan"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Splitter9
+        '
+        Me.Splitter9.Location = New System.Drawing.Point(1003, 3)
+        Me.Splitter9.Name = "Splitter9"
+        Me.Splitter9.Size = New System.Drawing.Size(3, 57)
+        Me.Splitter9.TabIndex = 17
+        Me.Splitter9.TabStop = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Transparent
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button10.FlatAppearance.BorderSize = 0
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.Color.Black
+        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button10.Location = New System.Drawing.Point(1012, 3)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(99, 57)
+        Me.Button10.TabIndex = 18
+        Me.Button10.Text = "Hasil Pengujian Produk Asal Hewan"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.ClientSize = New System.Drawing.Size(1184, 562)
         Me.Controls.Add(Me.FlowLayoutPanel2)
         Me.Controls.Add(Me.PanelGridView)
         Me.Controls.Add(Me.FlowLayoutPanel1)
@@ -418,5 +548,14 @@ Partial Class Dashboard
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents Splitter6 As System.Windows.Forms.Splitter
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Splitter7 As System.Windows.Forms.Splitter
+    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Splitter8 As System.Windows.Forms.Splitter
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Splitter9 As System.Windows.Forms.Splitter
+    Friend WithEvents Button10 As System.Windows.Forms.Button
 
 End Class

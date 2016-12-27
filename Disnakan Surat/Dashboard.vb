@@ -22,4 +22,29 @@
         Me.Enabled = False
         FormulirHasilUjiLaboratorium.Show()
     End Sub
+
+    Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
+        Me.Enabled = False
+        FormulirKesimpulanDiagnosa.Show()
+    End Sub
+
+    Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
+        Me.Enabled = False
+        PermintaanPengujianKeManajer.Show()
+    End Sub
+
+    Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
+        Me.Enabled = False
+        PermintaanPengujianKeFisikKimiawiMikrobiologi.Show()
+    End Sub
+
+    Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
+        Me.Enabled = False
+        HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.Show()
+    End Sub
+
+    Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
+        Me.Enabled = False
+        NilaiBMCMPanganAsalHewan.Show()
+    End Sub
 End Class
