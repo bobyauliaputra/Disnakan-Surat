@@ -110,6 +110,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="View\FormulirKesimpulanDiagnosa.Designer.vb">
+      <DependentUpon>FormulirKesimpulanDiagnosa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormulirKesimpulanDiagnosa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="View\FormulirDistribusiContohUjiSample.Designer.vb">
       <DependentUpon>FormulirDistribusiContohUjiSample.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,42 @@
     <Compile Include="View\FormulirPenerimaanContohUjiSampel.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="View\HasilPengujianLaboratorium.Designer.vb">
+      <DependentUpon>HasilPengujianLaboratorium.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\HasilPengujianLaboratorium.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HasilPengujianProdukAsalHewan.Designer.vb">
+      <DependentUpon>HasilPengujianProdukAsalHewan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\HasilPengujianProdukAsalHewan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.Designer.vb">
+      <DependentUpon>HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NilaiBMCMPanganAsalHewan.Designer.vb">
+      <DependentUpon>NilaiBMCMPanganAsalHewan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\NilaiBMCMPanganAsalHewan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.Designer.vb">
+      <DependentUpon>PermintaanPengujianKeFisikKimiawiMikrobiologi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PermintaanPengujianKeManajer.Designer.vb">
+      <DependentUpon>PermintaanPengujianKeManajer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\PermintaanPengujianKeManajer.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dashboard.resx">
@@ -142,6 +184,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\FormulirKesimpulanDiagnosa.resx">
+      <DependentUpon>FormulirKesimpulanDiagnosa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\FormulirDistribusiContohUjiSample.resx">
       <DependentUpon>FormulirDistribusiContohUjiSample.vb</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +195,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormulirPenerimaanContohUjiSampel.resx">
       <DependentUpon>FormulirPenerimaanContohUjiSampel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HasilPengujianLaboratorium.resx">
+      <DependentUpon>HasilPengujianLaboratorium.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HasilPengujianProdukAsalHewan.resx">
+      <DependentUpon>HasilPengujianProdukAsalHewan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.resx">
+      <DependentUpon>HasilPengujianProdukAsalHewanTerhadapCemaranMikroba.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NilaiBMCMPanganAsalHewan.resx">
+      <DependentUpon>NilaiBMCMPanganAsalHewan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.resx">
+      <DependentUpon>PermintaanPengujianKeFisikKimiawiMikrobiologi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PermintaanPengujianKeManajer.resx">
+      <DependentUpon>PermintaanPengujianKeManajer.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
