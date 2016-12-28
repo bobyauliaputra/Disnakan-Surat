@@ -30,10 +30,10 @@ Partial Class Karyawan
         Me.Nama = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Jabatan = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Departemen = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAdd = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnAdd = New System.Windows.Forms.Button()
         CType(Me.GridViewKaryawan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -119,6 +119,16 @@ Partial Class Karyawan
         Me.Departemen.ReadOnly = True
         Me.Departemen.Width = 150
         '
+        'btnAdd
+        '
+        Me.btnAdd.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.add
+        Me.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnAdd.Location = New System.Drawing.Point(713, 120)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(33, 33)
+        Me.btnAdd.TabIndex = 120
+        Me.btnAdd.UseVisualStyleBackColor = True
+        '
         'Panel1
         '
         Me.Panel1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.toolbar_bg
@@ -151,16 +161,6 @@ Partial Class Karyawan
         Me.Label1.Size = New System.Drawing.Size(170, 21)
         Me.Label1.TabIndex = 66
         Me.Label1.Text = "USER MANAGEMENT"
-        '
-        'btnAdd
-        '
-        Me.btnAdd.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.add
-        Me.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnAdd.Location = New System.Drawing.Point(713, 120)
-        Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(33, 33)
-        Me.btnAdd.TabIndex = 120
-        Me.btnAdd.UseVisualStyleBackColor = True
         '
         'Karyawan
         '

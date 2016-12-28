@@ -46,4 +46,9 @@ Public Class Karyawan
             con.Close()
         End Using
     End Sub
+
+    Private Sub btnAdd_Click(sender As System.Object, e As System.EventArgs) Handles btnAdd.Click
+        Me.Enabled = False
+        TambahKaryawan.Show()
+    End Sub
 End Class

@@ -87,6 +87,12 @@
       <DependentUpon>Dashboard.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="View\Karyawan\TambahKaryawan.Designer.vb">
+      <DependentUpon>TambahKaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Karyawan\TambahKaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="View\Pengaturan.Designer.vb">
       <DependentUpon>Pengaturan.vb</DependentUpon>
     </Compile>
@@ -198,6 +204,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Karyawan\TambahKaryawan.resx">
+      <DependentUpon>TambahKaryawan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Pengaturan.resx">
       <DependentUpon>Pengaturan.vb</DependentUpon>

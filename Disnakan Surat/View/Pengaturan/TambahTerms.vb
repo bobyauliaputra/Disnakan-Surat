@@ -39,6 +39,8 @@ Public Class TambahTerms
     Private Sub btnSimpanBaru_Click(sender As System.Object, e As System.EventArgs) Handles btnSimpanBaru.Click
         SimpanTerm()
         Pengaturan.BindTerms()
+        tbTermBaru.Text = ""
+        cbGrupName.SelectedIndex = 0
     End Sub
 
     Private Sub SimpanTerm()
@@ -48,7 +50,6 @@ Public Class TambahTerms
             cmd = con.CreateCommand
             cmd.CommandText = "insert into terms (termname, groupname) values ('" + tbTermBaru.Text + "', '" + cbGrupName.SelectedItem + "')"
             cmd.ExecuteNonQuery()
-            cbGrupName.Items.Clear()
             con.Close()
         End Using
     End Sub
