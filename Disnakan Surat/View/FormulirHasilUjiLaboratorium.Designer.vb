@@ -45,7 +45,7 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.dtTanggalSelesai = New System.Windows.Forms.DateTimePicker()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.tbNoContohUji = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -54,11 +54,11 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ddPelaksanaUji = New System.Windows.Forms.ComboBox()
         Me.TBMetodePengujian = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.HasilUji = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.ddMenyetujui = New System.Windows.Forms.ComboBox()
         Me.dtTanggalTerima = New System.Windows.Forms.DateTimePicker()
         Me.Panel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -325,15 +325,15 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.DateTimePicker2.Size = New System.Drawing.Size(110, 21)
         Me.DateTimePicker2.TabIndex = 61
         '
-        'DateTimePicker1
+        'dtTanggalSelesai
         '
-        Me.DateTimePicker1.CustomFormat = "dd MMM yyyy"
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(219, 348)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(210, 21)
-        Me.DateTimePicker1.TabIndex = 58
+        Me.dtTanggalSelesai.CustomFormat = "dd MMM yyyy"
+        Me.dtTanggalSelesai.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dtTanggalSelesai.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtTanggalSelesai.Location = New System.Drawing.Point(219, 348)
+        Me.dtTanggalSelesai.Name = "dtTanggalSelesai"
+        Me.dtTanggalSelesai.Size = New System.Drawing.Size(210, 21)
+        Me.dtTanggalSelesai.TabIndex = 58
         '
         'Label11
         '
@@ -398,7 +398,7 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(150, 31)
         Me.Label3.TabIndex = 79
-        Me.Label3.Text = "Tanggal Diterima Contoh Uji/Sampel"
+        Me.Label3.Text = "Tanggal Uji Selesai"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label2
@@ -411,14 +411,14 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.Label2.TabIndex = 78
         Me.Label2.Text = "Pelaksana Uji"
         '
-        'ComboBox1
+        'ddPelaksanaUji
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(219, 398)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(210, 22)
-        Me.ComboBox1.TabIndex = 59
+        Me.ddPelaksanaUji.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ddPelaksanaUji.FormattingEnabled = True
+        Me.ddPelaksanaUji.Location = New System.Drawing.Point(219, 398)
+        Me.ddPelaksanaUji.Name = "ddPelaksanaUji"
+        Me.ddPelaksanaUji.Size = New System.Drawing.Size(210, 22)
+        Me.ddPelaksanaUji.TabIndex = 59
         '
         'TBMetodePengujian
         '
@@ -428,14 +428,14 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.TBMetodePengujian.Size = New System.Drawing.Size(531, 21)
         Me.TBMetodePengujian.TabIndex = 56
         '
-        'TextBox2
+        'HasilUji
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(219, 209)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(531, 131)
-        Me.TextBox2.TabIndex = 57
+        Me.HasilUji.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HasilUji.Location = New System.Drawing.Point(219, 209)
+        Me.HasilUji.Multiline = True
+        Me.HasilUji.Name = "HasilUji"
+        Me.HasilUji.Size = New System.Drawing.Size(531, 131)
+        Me.HasilUji.TabIndex = 57
         '
         'Label6
         '
@@ -447,14 +447,14 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.Label6.Text = "Menyetujui Deputy Manajer Teknis Kesehatan Hewan/Kesmavet"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
-        'ComboBox2
+        'ddMenyetujui
         '
-        Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(219, 426)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(210, 22)
-        Me.ComboBox2.TabIndex = 60
+        Me.ddMenyetujui.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ddMenyetujui.FormattingEnabled = True
+        Me.ddMenyetujui.Location = New System.Drawing.Point(219, 426)
+        Me.ddMenyetujui.Name = "ddMenyetujui"
+        Me.ddMenyetujui.Size = New System.Drawing.Size(210, 22)
+        Me.ddMenyetujui.TabIndex = 60
         '
         'dtTanggalTerima
         '
@@ -472,8 +472,8 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(784, 562)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.ddMenyetujui)
+        Me.Controls.Add(Me.HasilUji)
         Me.Controls.Add(Me.TBMetodePengujian)
         Me.Controls.Add(Me.btnSimpan)
         Me.Controls.Add(Me.Label11)
@@ -481,14 +481,14 @@ Partial Class FormulirHasilUjiLaboratorium
         Me.Controls.Add(Me.tbNoEpi)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.dtTanggalSelesai)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.tbNoContohUji)
         Me.Controls.Add(Me.dtTanggalTerima)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.ddPelaksanaUji)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.Name = "FormulirHasilUjiLaboratorium"
@@ -525,7 +525,7 @@ Partial Class FormulirHasilUjiLaboratorium
     Friend WithEvents DateTimePicker3 As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtTanggalSelesai As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents tbNoContohUji As System.Windows.Forms.TextBox
     Friend WithEvents Label16 As System.Windows.Forms.Label
@@ -534,10 +534,10 @@ Partial Class FormulirHasilUjiLaboratorium
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents ddPelaksanaUji As System.Windows.Forms.ComboBox
     Friend WithEvents TBMetodePengujian As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents HasilUji As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents ddMenyetujui As System.Windows.Forms.ComboBox
     Friend WithEvents dtTanggalTerima As System.Windows.Forms.DateTimePicker
 End Class
