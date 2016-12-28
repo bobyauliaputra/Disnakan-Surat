@@ -47,4 +47,9 @@
         Me.Enabled = False
         NilaiBMCMPanganAsalHewan.Show()
     End Sub
+
+    Private Sub Button10_Click(sender As System.Object, e As System.EventArgs) Handles Button10.Click
+        Me.Enabled = False
+        HasilPengujianProdukAsalHewan.Show()
+    End Sub
 End Class
