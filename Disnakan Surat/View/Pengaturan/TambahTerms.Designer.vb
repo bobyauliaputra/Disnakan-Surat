@@ -22,39 +22,39 @@ Partial Class TambahTerms
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.tbTermBaru = New System.Windows.Forms.TextBox()
+        Me.btnSimpanTutup = New System.Windows.Forms.Button()
+        Me.cbGrupName = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnSimpanBaru = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'tbTermBaru
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(19, 29)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(346, 21)
-        Me.TextBox1.TabIndex = 0
+        Me.tbTermBaru.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbTermBaru.Location = New System.Drawing.Point(19, 29)
+        Me.tbTermBaru.Name = "tbTermBaru"
+        Me.tbTermBaru.Size = New System.Drawing.Size(346, 21)
+        Me.tbTermBaru.TabIndex = 0
         '
-        'Button1
+        'btnSimpanTutup
         '
-        Me.Button1.Location = New System.Drawing.Point(107, 100)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(122, 28)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Simpan && Tutup"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnSimpanTutup.Location = New System.Drawing.Point(107, 100)
+        Me.btnSimpanTutup.Name = "btnSimpanTutup"
+        Me.btnSimpanTutup.Size = New System.Drawing.Size(122, 28)
+        Me.btnSimpanTutup.TabIndex = 2
+        Me.btnSimpanTutup.Text = "Simpan && Tutup"
+        Me.btnSimpanTutup.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'cbGrupName
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(20, 71)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(345, 23)
-        Me.ComboBox1.TabIndex = 6
+        Me.cbGrupName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbGrupName.FormattingEnabled = True
+        Me.cbGrupName.Location = New System.Drawing.Point(20, 71)
+        Me.cbGrupName.Name = "cbGrupName"
+        Me.cbGrupName.Size = New System.Drawing.Size(345, 23)
+        Me.cbGrupName.TabIndex = 1
         '
         'Label1
         '
@@ -74,26 +74,26 @@ Partial Class TambahTerms
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Grup Istilah"
         '
-        'Button2
+        'btnSimpanBaru
         '
-        Me.Button2.Location = New System.Drawing.Point(235, 100)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(130, 28)
-        Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Simpan && Buat Baru"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnSimpanBaru.Location = New System.Drawing.Point(235, 100)
+        Me.btnSimpanBaru.Name = "btnSimpanBaru"
+        Me.btnSimpanBaru.Size = New System.Drawing.Size(130, 28)
+        Me.btnSimpanBaru.TabIndex = 11
+        Me.btnSimpanBaru.Text = "Simpan && Buat Baru"
+        Me.btnSimpanBaru.UseVisualStyleBackColor = True
         '
         'TambahTerms
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(381, 138)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btnSimpanBaru)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.cbGrupName)
+        Me.Controls.Add(Me.btnSimpanTutup)
+        Me.Controls.Add(Me.tbTermBaru)
         Me.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
@@ -105,10 +105,10 @@ Partial Class TambahTerms
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents tbTermBaru As System.Windows.Forms.TextBox
+    Friend WithEvents btnSimpanTutup As System.Windows.Forms.Button
+    Friend WithEvents cbGrupName As System.Windows.Forms.ComboBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnSimpanBaru As System.Windows.Forms.Button
 End Class

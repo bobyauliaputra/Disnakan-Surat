@@ -12,7 +12,7 @@ Public Class Karyawan
             Dim cmd As New SQLiteCommand(con)
             con.Open()
             cmd = con.CreateCommand
-            cmd.CommandText = "SELECT id, nama, jabatanid, departemenID FROM karyawan"
+            cmd.CommandText = "SELECT k.id, k.nama, t.termname, k.departemenID FROM karyawan k left join terms t on k.jabatanid = t.id"
             Dim SQLreader As SQLiteDataReader = cmd.ExecuteReader()
 
             GridViewKaryawan.Rows.Clear()

@@ -87,10 +87,13 @@ Partial Class Pengaturan
         '
         'DataGridViewTerms
         '
+        Me.DataGridViewTerms.AllowUserToAddRows = False
+        Me.DataGridViewTerms.AllowUserToDeleteRows = False
         Me.DataGridViewTerms.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Nomor, Me.Istilah, Me.GrupIstilah})
         Me.DataGridViewTerms.Location = New System.Drawing.Point(6, 45)
         Me.DataGridViewTerms.Name = "DataGridViewTerms"
         Me.DataGridViewTerms.RowHeadersVisible = False
+        Me.DataGridViewTerms.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridViewTerms.Size = New System.Drawing.Size(740, 324)
         Me.DataGridViewTerms.TabIndex = 0
         '

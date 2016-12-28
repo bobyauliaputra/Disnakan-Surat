@@ -9,7 +9,6 @@ Public Class Pengaturan
         Me.Text = g.Title
 
         BindTerms()
-
     End Sub
 
     Private Sub Pengaturan_FormClosed(sender As System.Object, e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
@@ -21,7 +20,7 @@ Public Class Pengaturan
         TambahTerms.Show()
     End Sub
 
-    Private Sub BindTerms()
+    Public Sub BindTerms()
         Using con As New SQLiteConnection(c.connection)
             Dim cmd As New SQLiteCommand(con)
             Dim i As Integer = 1

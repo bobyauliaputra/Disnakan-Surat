@@ -26,14 +26,14 @@ Partial Class Karyawan
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GridViewKaryawan = New System.Windows.Forms.DataGridView()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nama = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Jabatan = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Departemen = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnAdd = New System.Windows.Forms.Button()
         CType(Me.GridViewKaryawan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -91,16 +91,33 @@ Partial Class Karyawan
         Me.GridViewKaryawan.Size = New System.Drawing.Size(711, 180)
         Me.GridViewKaryawan.TabIndex = 119
         '
-        'Label4
+        'ID
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 8.0!)
-        Me.Label4.Location = New System.Drawing.Point(651, 142)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(95, 14)
-        Me.Label4.TabIndex = 120
-        Me.Label4.Text = "Update Terakhir :"
+        Me.ID.Frozen = True
+        Me.ID.HeaderText = "ID"
+        Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
+        '
+        'Nama
+        '
+        Me.Nama.HeaderText = "Nama Karyawan"
+        Me.Nama.Name = "Nama"
+        Me.Nama.ReadOnly = True
+        Me.Nama.Width = 308
+        '
+        'Jabatan
+        '
+        Me.Jabatan.HeaderText = "Jabatan"
+        Me.Jabatan.Name = "Jabatan"
+        Me.Jabatan.ReadOnly = True
+        Me.Jabatan.Width = 150
+        '
+        'Departemen
+        '
+        Me.Departemen.HeaderText = "Departemen"
+        Me.Departemen.Name = "Departemen"
+        Me.Departemen.ReadOnly = True
+        Me.Departemen.Width = 150
         '
         'Panel1
         '
@@ -135,45 +152,27 @@ Partial Class Karyawan
         Me.Label1.TabIndex = 66
         Me.Label1.Text = "USER MANAGEMENT"
         '
-        'ID
+        'btnAdd
         '
-        Me.ID.Frozen = True
-        Me.ID.HeaderText = "ID"
-        Me.ID.Name = "ID"
-        Me.ID.ReadOnly = True
-        '
-        'Nama
-        '
-        Me.Nama.HeaderText = "Nama Karyawan"
-        Me.Nama.Name = "Nama"
-        Me.Nama.ReadOnly = True
-        Me.Nama.Width = 308
-        '
-        'Jabatan
-        '
-        Me.Jabatan.HeaderText = "Jabatan"
-        Me.Jabatan.Name = "Jabatan"
-        Me.Jabatan.ReadOnly = True
-        Me.Jabatan.Width = 150
-        '
-        'Departemen
-        '
-        Me.Departemen.HeaderText = "Departemen"
-        Me.Departemen.Name = "Departemen"
-        Me.Departemen.ReadOnly = True
-        Me.Departemen.Width = 150
+        Me.btnAdd.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.add
+        Me.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnAdd.Location = New System.Drawing.Point(713, 120)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(33, 33)
+        Me.btnAdd.TabIndex = 120
+        Me.btnAdd.UseVisualStyleBackColor = True
         '
         'Karyawan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.btnSimpan)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GridViewKaryawan)
-        Me.Controls.Add(Me.Label4)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.Name = "Karyawan"
@@ -193,9 +192,9 @@ Partial Class Karyawan
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents GridViewKaryawan As System.Windows.Forms.DataGridView
-    Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents ID As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Nama As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Jabatan As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Departemen As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents btnAdd As System.Windows.Forms.Button
 End Class
