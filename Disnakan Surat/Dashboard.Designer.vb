@@ -61,6 +61,8 @@ Partial Class Dashboard
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Splitter9 = New System.Windows.Forms.Splitter()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Splitter10 = New System.Windows.Forms.Splitter()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.PanelGridView.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -256,6 +258,8 @@ Partial Class Dashboard
         Me.FlowLayoutPanel1.Controls.Add(Me.Button9)
         Me.FlowLayoutPanel1.Controls.Add(Me.Splitter9)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button10)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Splitter10)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button11)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 27)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(1184, 63)
@@ -493,6 +497,30 @@ Partial Class Dashboard
         Me.Button10.Text = "Hasil Pengujian Produk Asal Hewan"
         Me.Button10.UseVisualStyleBackColor = False
         '
+        'Splitter10
+        '
+        Me.Splitter10.Location = New System.Drawing.Point(1117, 3)
+        Me.Splitter10.Name = "Splitter10"
+        Me.Splitter10.Size = New System.Drawing.Size(3, 57)
+        Me.Splitter10.TabIndex = 19
+        Me.Splitter10.TabStop = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.Transparent
+        Me.Button11.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.settings_icon
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button11.FlatAppearance.BorderSize = 0
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.Black
+        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button11.Location = New System.Drawing.Point(1126, 3)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(49, 57)
+        Me.Button11.TabIndex = 20
+        Me.Button11.UseVisualStyleBackColor = False
+        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -557,5 +585,7 @@ Partial Class Dashboard
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Splitter9 As System.Windows.Forms.Splitter
     Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Splitter10 As System.Windows.Forms.Splitter
+    Friend WithEvents Button11 As System.Windows.Forms.Button
 
 End Class

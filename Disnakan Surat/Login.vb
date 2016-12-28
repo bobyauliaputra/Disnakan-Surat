@@ -35,7 +35,7 @@ Public Class Login
                     lblError.Text = "Password Salah"
                 End If
             End If
-            con.Clone()
+            con.Close()
         End Using
     End Sub
 

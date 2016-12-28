@@ -52,4 +52,14 @@
         Me.Enabled = False
         HasilPengujianProdukAsalHewan.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        Me.Enabled = False
+        Karyawan.Show()
+    End Sub
+
+    Private Sub Button11_Click(sender As System.Object, e As System.EventArgs) Handles Button11.Click
+        Me.Enabled = False
+        Pengaturan.Show()
+    End Sub
 End Class

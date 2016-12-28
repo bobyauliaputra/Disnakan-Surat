@@ -87,6 +87,12 @@
       <DependentUpon>Dashboard.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="View\Pengaturan.Designer.vb">
+      <DependentUpon>Pengaturan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pengaturan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -158,6 +164,12 @@
     <Compile Include="View\NilaiBMCMPanganAsalHewan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="View\Pengaturan\TambahTerms.Designer.vb">
+      <DependentUpon>TambahTerms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pengaturan\TambahTerms.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.Designer.vb">
       <DependentUpon>PermintaanPengujianKeFisikKimiawiMikrobiologi.vb</DependentUpon>
     </Compile>
@@ -170,10 +182,25 @@
     <Compile Include="View\PermintaanPengujianKeManajer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="View\Karyawan.Designer.vb">
+      <DependentUpon>Karyawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Karyawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Terms.Designer.vb">
+      <DependentUpon>Terms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Terms.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Pengaturan.resx">
+      <DependentUpon>Pengaturan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -208,11 +235,17 @@
     <EmbeddedResource Include="View\NilaiBMCMPanganAsalHewan.resx">
       <DependentUpon>NilaiBMCMPanganAsalHewan.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Pengaturan\TambahTerms.resx">
+      <DependentUpon>TambahTerms.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.resx">
       <DependentUpon>PermintaanPengujianKeFisikKimiawiMikrobiologi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\PermintaanPengujianKeManajer.resx">
       <DependentUpon>PermintaanPengujianKeManajer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Karyawan.resx">
+      <DependentUpon>Karyawan.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -229,6 +262,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Actions-go-next-view-icon.png" />
+    <Content Include="Images\add.png" />
     <Content Include="Images\bg1.jpg" />
     <Content Include="Images\Close-icon.png" />
     <Content Include="Images\close.png" />
@@ -237,8 +271,10 @@
     <Content Include="Images\Documents-icon.png" />
     <Content Include="Images\home-icon.png" />
     <Content Include="Images\icon.ico" />
+    <Content Include="Images\Pengaturan.png" />
     <Content Include="Images\Right-2-icon.png" />
     <Content Include="Images\Save-icon.png" />
+    <Content Include="Images\settings-icon.png" />
     <Content Include="Images\toolbar-bg.png" />
   </ItemGroup>
   <ItemGroup />

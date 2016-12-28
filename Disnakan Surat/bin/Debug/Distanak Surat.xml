@@ -19,6 +19,14 @@ DistanakSurat
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Distanak_Surat.My.Resources.Resources.add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Distanak_Surat.My.Resources.Resources.add1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Distanak_Surat.My.Resources.Resources.bg1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -47,11 +55,19 @@ DistanakSurat
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Distanak_Surat.My.Resources.Resources.Pengaturan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Distanak_Surat.My.Resources.Resources.Right_2_icon">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Distanak_Surat.My.Resources.Resources.Save_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Distanak_Surat.My.Resources.Resources.settings_icon">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
