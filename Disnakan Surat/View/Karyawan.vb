@@ -7,29 +7,49 @@ Public Class Karyawan
     Private Sub User_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Dim g As New General
         Me.Text = g.Title
-
-        Using con As New SQLiteConnection(c.connection)
-            Dim cmd As New SQLiteCommand(con)
-            con.Open()
-            cmd = con.CreateCommand
-            cmd.CommandText = "SELECT k.id, k.nama, t.termname, k.departemenID FROM karyawan k left join terms t on k.jabatanid = t.id"
-            Dim SQLreader As SQLiteDataReader = cmd.ExecuteReader()
-
-            GridViewKaryawan.Rows.Clear()
-
-            While SQLreader.Read()
-                GridViewKaryawan.Rows.Add(SQLreader(0), SQLreader(1), SQLreader(2), "Cetak", "Buka")
-            End While
-            con.Close()
-        End Using
-
+        BindKaryawan()
+        BindUsers()
     End Sub
 
     Private Sub User_FormClosed(sender As System.Object, e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
         Dashboard.Enabled = True
     End Sub
 
-    Private Sub btnSimpan_Click(sender As System.Object, e As System.EventArgs) Handles btnSimpan.Click
+    Public Sub BindKaryawan()
+        Using con As New SQLiteConnection(c.connection)
+            Dim cmd As New SQLiteCommand(con)
+            con.Open()
+            cmd = con.CreateCommand
+            cmd.CommandText = "SELECT k.id, k.nama, jabatan.termname, departemen.termname FROM karyawan k left join terms jabatan on k.jabatanid = jabatan.id left join terms departemen on k.departemenid = departemen.id"
+            Dim SQLreader As SQLiteDataReader = cmd.ExecuteReader()
+
+            GridViewKaryawan.Rows.Clear()
+
+            While SQLreader.Read()
+                GridViewKaryawan.Rows.Add(SQLreader(0), SQLreader(1), SQLreader(2), SQLreader(3), "Cetak", "Buka")
+            End While
+            con.Close()
+        End Using
+    End Sub
+
+    Public Sub BindUsers()
+        Using con As New SQLiteConnection(c.connection)
+            Dim cmd As New SQLiteCommand(con)
+            con.Open()
+            cmd = con.CreateCommand
+            cmd.CommandText = "select u.ID, u.username, k.Nama, u.LastLogin from user u left join karyawan k on k.id = u.karyawanid"
+            Dim SQLreader As SQLiteDataReader = cmd.ExecuteReader()
+
+            GridViewUser.Rows.Clear()
+
+            While SQLreader.Read()
+                GridViewUser.Rows.Add(SQLreader(0), SQLreader(1), SQLreader(2), SQLreader(3))
+            End While
+            con.Close()
+        End Using
+    End Sub
+
+    Private Sub btnSimpan_Click(sender As System.Object, e As System.EventArgs)
         Using con As New SQLiteConnection(c.connection)
             Dim cmd As New SQLiteCommand(con)
             con.Open()

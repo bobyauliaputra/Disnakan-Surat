@@ -22,23 +22,23 @@ Partial Class TambahKaryawan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.tbNama = New System.Windows.Forms.TextBox()
         Me.cbJabatan = New System.Windows.Forms.ComboBox()
         Me.cbDepartemen = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnSimpanBaru = New System.Windows.Forms.Button()
+        Me.btnSimpanTutup = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'tbNama
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(126, 29)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(265, 24)
-        Me.TextBox1.TabIndex = 0
+        Me.tbNama.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbNama.Location = New System.Drawing.Point(126, 29)
+        Me.tbNama.Name = "tbNama"
+        Me.tbNama.Size = New System.Drawing.Size(265, 24)
+        Me.tbNama.TabIndex = 0
         '
         'cbJabatan
         '
@@ -58,23 +58,23 @@ Partial Class TambahKaryawan
         Me.cbDepartemen.Size = New System.Drawing.Size(265, 24)
         Me.cbDepartemen.TabIndex = 2
         '
-        'Button1
+        'btnSimpanBaru
         '
-        Me.Button1.Location = New System.Drawing.Point(274, 124)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 27)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Simpan && Buat Baru"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnSimpanBaru.Location = New System.Drawing.Point(274, 124)
+        Me.btnSimpanBaru.Name = "btnSimpanBaru"
+        Me.btnSimpanBaru.Size = New System.Drawing.Size(117, 27)
+        Me.btnSimpanBaru.TabIndex = 3
+        Me.btnSimpanBaru.Text = "Simpan && Buat Baru"
+        Me.btnSimpanBaru.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnSimpanTutup
         '
-        Me.Button2.Location = New System.Drawing.Point(175, 124)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(93, 27)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Simpan && Tutup"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnSimpanTutup.Location = New System.Drawing.Point(175, 124)
+        Me.btnSimpanTutup.Name = "btnSimpanTutup"
+        Me.btnSimpanTutup.Size = New System.Drawing.Size(93, 27)
+        Me.btnSimpanTutup.TabIndex = 4
+        Me.btnSimpanTutup.Text = "Simpan && Tutup"
+        Me.btnSimpanTutup.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -114,11 +114,11 @@ Partial Class TambahKaryawan
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnSimpanTutup)
+        Me.Controls.Add(Me.btnSimpanBaru)
         Me.Controls.Add(Me.cbDepartemen)
         Me.Controls.Add(Me.cbJabatan)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.tbNama)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
         Me.MinimizeBox = False
@@ -129,11 +129,11 @@ Partial Class TambahKaryawan
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents tbNama As System.Windows.Forms.TextBox
     Friend WithEvents cbJabatan As System.Windows.Forms.ComboBox
     Friend WithEvents cbDepartemen As System.Windows.Forms.ComboBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnSimpanBaru As System.Windows.Forms.Button
+    Friend WithEvents btnSimpanTutup As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label

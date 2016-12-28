@@ -268,7 +268,7 @@ Partial Class Dashboard
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.home_icon
+        Me.Button1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.users_icon
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -508,7 +508,7 @@ Partial Class Dashboard
         'Button11
         '
         Me.Button11.BackColor = System.Drawing.Color.Transparent
-        Me.Button11.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.settings_icon
+        Me.Button11.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.settings
         Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Button11.FlatAppearance.BorderSize = 0
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat

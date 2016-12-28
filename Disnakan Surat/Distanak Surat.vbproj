@@ -284,7 +284,10 @@
     <Content Include="Images\Right-2-icon.png" />
     <Content Include="Images\Save-icon.png" />
     <Content Include="Images\settings-icon.png" />
+    <Content Include="Images\settings.png" />
     <Content Include="Images\toolbar-bg.png" />
+    <Content Include="Images\User-icon.png" />
+    <Content Include="Images\users-icon.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

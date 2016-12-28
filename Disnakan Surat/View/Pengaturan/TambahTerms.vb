@@ -17,7 +17,7 @@ Public Class TambahTerms
             Dim cmd As New SQLiteCommand(con)
             con.Open()
             cmd = con.CreateCommand
-            cmd.CommandText = "SELECT groupname FROM terms order by groupname asc"
+            cmd.CommandText = "SELECT distinct groupname FROM terms order by groupname asc"
             Dim SQLreader As SQLiteDataReader = cmd.ExecuteReader()
 
             cbGrupName.Items.Clear()
@@ -40,7 +40,6 @@ Public Class TambahTerms
         SimpanTerm()
         Pengaturan.BindTerms()
         tbTermBaru.Text = ""
-        cbGrupName.SelectedIndex = 0
     End Sub
 
     Private Sub SimpanTerm()
