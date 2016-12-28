@@ -49,6 +49,7 @@ Partial Class TambahTerms
         '
         'cbGrupName
         '
+        Me.cbGrupName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbGrupName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbGrupName.FormattingEnabled = True
         Me.cbGrupName.Location = New System.Drawing.Point(20, 71)
@@ -95,7 +96,7 @@ Partial Class TambahTerms
         Me.Controls.Add(Me.btnSimpanTutup)
         Me.Controls.Add(Me.tbTermBaru)
         Me.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "TambahTerms"

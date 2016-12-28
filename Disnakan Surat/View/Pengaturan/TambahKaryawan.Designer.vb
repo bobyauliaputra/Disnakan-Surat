@@ -42,6 +42,7 @@ Partial Class TambahKaryawan
         '
         'cbJabatan
         '
+        Me.cbJabatan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbJabatan.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbJabatan.FormattingEnabled = True
         Me.cbJabatan.Location = New System.Drawing.Point(126, 59)
@@ -51,6 +52,7 @@ Partial Class TambahKaryawan
         '
         'cbDepartemen
         '
+        Me.cbDepartemen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbDepartemen.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbDepartemen.FormattingEnabled = True
         Me.cbDepartemen.Location = New System.Drawing.Point(126, 89)
@@ -119,7 +121,7 @@ Partial Class TambahKaryawan
         Me.Controls.Add(Me.cbDepartemen)
         Me.Controls.Add(Me.cbJabatan)
         Me.Controls.Add(Me.tbNama)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "TambahKaryawan"

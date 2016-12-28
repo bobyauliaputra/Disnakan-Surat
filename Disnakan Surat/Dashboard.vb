@@ -53,7 +53,7 @@
         HasilPengujianProdukAsalHewan.Show()
     End Sub
 
-    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs)
         Me.Enabled = False
         Karyawan.Show()
     End Sub

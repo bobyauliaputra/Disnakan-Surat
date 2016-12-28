@@ -42,8 +42,6 @@ Partial Class Dashboard
         Me.Label4 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Splitter1 = New System.Windows.Forms.Splitter()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Splitter2 = New System.Windows.Forms.Splitter()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -239,8 +237,6 @@ Partial Class Dashboard
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.FlowLayoutPanel1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.toolbar_bg
         Me.FlowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.FlowLayoutPanel1.Controls.Add(Me.Button1)
-        Me.FlowLayoutPanel1.Controls.Add(Me.Splitter1)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button2)
         Me.FlowLayoutPanel1.Controls.Add(Me.Splitter2)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button3)
@@ -265,30 +261,6 @@ Partial Class Dashboard
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(1184, 63)
         Me.FlowLayoutPanel1.TabIndex = 1
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.Distanak_Surat.My.Resources.Resources.users_icon
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button1.Location = New System.Drawing.Point(3, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(82, 57)
-        Me.Button1.TabIndex = 0
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Splitter1
-        '
-        Me.Splitter1.Location = New System.Drawing.Point(91, 3)
-        Me.Splitter1.Name = "Splitter1"
-        Me.Splitter1.Size = New System.Drawing.Size(3, 57)
-        Me.Splitter1.TabIndex = 1
-        Me.Splitter1.TabStop = False
-        '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
@@ -298,7 +270,7 @@ Partial Class Dashboard
         Me.Button2.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button2.Location = New System.Drawing.Point(100, 3)
+        Me.Button2.Location = New System.Drawing.Point(3, 3)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(99, 57)
         Me.Button2.TabIndex = 2
@@ -307,7 +279,7 @@ Partial Class Dashboard
         '
         'Splitter2
         '
-        Me.Splitter2.Location = New System.Drawing.Point(205, 3)
+        Me.Splitter2.Location = New System.Drawing.Point(108, 3)
         Me.Splitter2.Name = "Splitter2"
         Me.Splitter2.Size = New System.Drawing.Size(3, 57)
         Me.Splitter2.TabIndex = 3
@@ -322,7 +294,7 @@ Partial Class Dashboard
         Me.Button3.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button3.Location = New System.Drawing.Point(214, 3)
+        Me.Button3.Location = New System.Drawing.Point(117, 3)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(99, 57)
         Me.Button3.TabIndex = 4
@@ -331,7 +303,7 @@ Partial Class Dashboard
         '
         'Splitter3
         '
-        Me.Splitter3.Location = New System.Drawing.Point(319, 3)
+        Me.Splitter3.Location = New System.Drawing.Point(222, 3)
         Me.Splitter3.Name = "Splitter3"
         Me.Splitter3.Size = New System.Drawing.Size(3, 57)
         Me.Splitter3.TabIndex = 5
@@ -346,7 +318,7 @@ Partial Class Dashboard
         Me.Button4.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Black
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button4.Location = New System.Drawing.Point(328, 3)
+        Me.Button4.Location = New System.Drawing.Point(231, 3)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(99, 57)
         Me.Button4.TabIndex = 6
@@ -355,7 +327,7 @@ Partial Class Dashboard
         '
         'Splitter4
         '
-        Me.Splitter4.Location = New System.Drawing.Point(433, 3)
+        Me.Splitter4.Location = New System.Drawing.Point(336, 3)
         Me.Splitter4.Name = "Splitter4"
         Me.Splitter4.Size = New System.Drawing.Size(3, 57)
         Me.Splitter4.TabIndex = 7
@@ -370,7 +342,7 @@ Partial Class Dashboard
         Me.Button5.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button5.Location = New System.Drawing.Point(442, 3)
+        Me.Button5.Location = New System.Drawing.Point(345, 3)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(99, 57)
         Me.Button5.TabIndex = 8
@@ -379,7 +351,7 @@ Partial Class Dashboard
         '
         'Splitter5
         '
-        Me.Splitter5.Location = New System.Drawing.Point(547, 3)
+        Me.Splitter5.Location = New System.Drawing.Point(450, 3)
         Me.Splitter5.Name = "Splitter5"
         Me.Splitter5.Size = New System.Drawing.Size(3, 57)
         Me.Splitter5.TabIndex = 9
@@ -394,7 +366,7 @@ Partial Class Dashboard
         Me.Button6.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Black
         Me.Button6.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button6.Location = New System.Drawing.Point(556, 3)
+        Me.Button6.Location = New System.Drawing.Point(459, 3)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(99, 57)
         Me.Button6.TabIndex = 10
@@ -403,7 +375,7 @@ Partial Class Dashboard
         '
         'Splitter6
         '
-        Me.Splitter6.Location = New System.Drawing.Point(661, 3)
+        Me.Splitter6.Location = New System.Drawing.Point(564, 3)
         Me.Splitter6.Name = "Splitter6"
         Me.Splitter6.Size = New System.Drawing.Size(3, 57)
         Me.Splitter6.TabIndex = 11
@@ -418,7 +390,7 @@ Partial Class Dashboard
         Me.Button7.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.Black
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button7.Location = New System.Drawing.Point(670, 3)
+        Me.Button7.Location = New System.Drawing.Point(573, 3)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(99, 57)
         Me.Button7.TabIndex = 12
@@ -427,7 +399,7 @@ Partial Class Dashboard
         '
         'Splitter7
         '
-        Me.Splitter7.Location = New System.Drawing.Point(775, 3)
+        Me.Splitter7.Location = New System.Drawing.Point(678, 3)
         Me.Splitter7.Name = "Splitter7"
         Me.Splitter7.Size = New System.Drawing.Size(3, 57)
         Me.Splitter7.TabIndex = 13
@@ -442,7 +414,7 @@ Partial Class Dashboard
         Me.Button8.Font = New System.Drawing.Font("Microsoft Tai Le", 7.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.Black
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button8.Location = New System.Drawing.Point(784, 3)
+        Me.Button8.Location = New System.Drawing.Point(687, 3)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(99, 57)
         Me.Button8.TabIndex = 14
@@ -451,7 +423,7 @@ Partial Class Dashboard
         '
         'Splitter8
         '
-        Me.Splitter8.Location = New System.Drawing.Point(889, 3)
+        Me.Splitter8.Location = New System.Drawing.Point(792, 3)
         Me.Splitter8.Name = "Splitter8"
         Me.Splitter8.Size = New System.Drawing.Size(3, 57)
         Me.Splitter8.TabIndex = 15
@@ -466,7 +438,7 @@ Partial Class Dashboard
         Me.Button9.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.Black
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button9.Location = New System.Drawing.Point(898, 3)
+        Me.Button9.Location = New System.Drawing.Point(801, 3)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(99, 57)
         Me.Button9.TabIndex = 16
@@ -475,7 +447,7 @@ Partial Class Dashboard
         '
         'Splitter9
         '
-        Me.Splitter9.Location = New System.Drawing.Point(1003, 3)
+        Me.Splitter9.Location = New System.Drawing.Point(906, 3)
         Me.Splitter9.Name = "Splitter9"
         Me.Splitter9.Size = New System.Drawing.Size(3, 57)
         Me.Splitter9.TabIndex = 17
@@ -490,7 +462,7 @@ Partial Class Dashboard
         Me.Button10.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.ForeColor = System.Drawing.Color.Black
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button10.Location = New System.Drawing.Point(1012, 3)
+        Me.Button10.Location = New System.Drawing.Point(915, 3)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(99, 57)
         Me.Button10.TabIndex = 18
@@ -499,7 +471,7 @@ Partial Class Dashboard
         '
         'Splitter10
         '
-        Me.Splitter10.Location = New System.Drawing.Point(1117, 3)
+        Me.Splitter10.Location = New System.Drawing.Point(1020, 3)
         Me.Splitter10.Name = "Splitter10"
         Me.Splitter10.Size = New System.Drawing.Size(3, 57)
         Me.Splitter10.TabIndex = 19
@@ -515,9 +487,9 @@ Partial Class Dashboard
         Me.Button11.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button11.ForeColor = System.Drawing.Color.Black
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button11.Location = New System.Drawing.Point(1126, 3)
+        Me.Button11.Location = New System.Drawing.Point(1029, 3)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(49, 57)
+        Me.Button11.Size = New System.Drawing.Size(66, 57)
         Me.Button11.TabIndex = 20
         Me.Button11.UseVisualStyleBackColor = False
         '
@@ -553,8 +525,6 @@ Partial Class Dashboard
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents KeluarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FlowLayoutPanel1 As System.Windows.Forms.FlowLayoutPanel
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Splitter1 As System.Windows.Forms.Splitter
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Splitter2 As System.Windows.Forms.Splitter
     Friend WithEvents Button3 As System.Windows.Forms.Button

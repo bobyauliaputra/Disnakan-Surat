@@ -10,7 +10,7 @@ Public Class TambahKaryawan
     End Sub
 
     Private Sub TambahKaryawan_FormClosed(sender As System.Object, e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
-        Karyawan.Enabled = True
+        Pengaturan.Enabled = True
     End Sub
 
     Private Sub BindJabatan()
@@ -69,7 +69,7 @@ Public Class TambahKaryawan
             SimpanKaryawan()
             tbNama.Text = ""
             cbJabatan.SelectedIndex = 0
-            Karyawan.BindKaryawan()
+            Pengaturan.BindKaryawan()
         End If
     End Sub
 
@@ -79,8 +79,7 @@ Public Class TambahKaryawan
         Else
             SimpanKaryawan()
             Me.Close()
-            Karyawan.Enabled = True
-            Karyawan.BindKaryawan()
+            Pengaturan.BindKaryawan()
         End If
     End Sub
 End Class

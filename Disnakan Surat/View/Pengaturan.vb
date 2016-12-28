@@ -10,6 +10,7 @@ Public Class Pengaturan
 
         BindTerms()
         BindKaryawan()
+        BindUsers()
     End Sub
 
     Private Sub Pengaturan_FormClosed(sender As System.Object, e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
@@ -52,12 +53,35 @@ Public Class Pengaturan
         End Using
     End Sub
 
-    Private Sub btnAddTerms_Click(sender As System.Object, e As System.EventArgs) Handles btnAddTerms.Click
+    Public Sub BindUsers()
+        Using con As New SQLiteConnection(c.connection)
+            Dim cmd As New SQLiteCommand(con)
+            con.Open()
+            cmd = con.CreateCommand
+            cmd.CommandText = "select u.ID, u.username, k.Nama, u.LastLogin from user u left join karyawan k on k.id = u.karyawanid"
+            Dim SQLreader As SQLiteDataReader = cmd.ExecuteReader()
+
+            GridViewUser.Rows.Clear()
+
+            While SQLreader.Read()
+                GridViewUser.Rows.Add(SQLreader(0), SQLreader(1), SQLreader(2), SQLreader(3))
+            End While
+            con.Close()
+        End Using
+    End Sub
+
+    Private Sub btnAddKaryawan_Click(sender As System.Object, e As System.EventArgs) Handles btnAddKaryawan.Click
+        Me.Enabled = False
+        TambahKaryawan.Show()
+    End Sub
+
+    Private Sub btnAddTerms_Click_1(sender As System.Object, e As System.EventArgs) Handles btnAddTerms.Click
         Me.Enabled = False
         TambahTerms.Show()
     End Sub
 
-    Private Sub btnAdd_Click(sender As System.Object, e As System.EventArgs)
-
+    Private Sub btnAddUser_Click(sender As System.Object, e As System.EventArgs) Handles btnAddUser.Click
+        Me.Enabled = False
+        TambahUser.Show()
     End Sub
 End Class

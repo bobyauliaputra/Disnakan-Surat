@@ -87,10 +87,10 @@
       <DependentUpon>Dashboard.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Karyawan\TambahKaryawan.Designer.vb">
+    <Compile Include="View\Pengaturan\TambahKaryawan.Designer.vb">
       <DependentUpon>TambahKaryawan.vb</DependentUpon>
     </Compile>
-    <Compile Include="View\Karyawan\TambahKaryawan.vb">
+    <Compile Include="View\Pengaturan\TambahKaryawan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Pengaturan.Designer.vb">
@@ -176,6 +176,12 @@
     <Compile Include="View\Pengaturan\TambahTerms.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="View\Pengaturan\TambahUser.Designer.vb">
+      <DependentUpon>TambahUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pengaturan\TambahUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.Designer.vb">
       <DependentUpon>PermintaanPengujianKeFisikKimiawiMikrobiologi.vb</DependentUpon>
     </Compile>
@@ -205,7 +211,7 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Karyawan\TambahKaryawan.resx">
+    <EmbeddedResource Include="View\Pengaturan\TambahKaryawan.resx">
       <DependentUpon>TambahKaryawan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Pengaturan.resx">
@@ -246,6 +252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Pengaturan\TambahTerms.resx">
       <DependentUpon>TambahTerms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Pengaturan\TambahUser.resx">
+      <DependentUpon>TambahUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\PermintaanPengujianKeFisikKimiawiMikrobiologi.resx">
       <DependentUpon>PermintaanPengujianKeFisikKimiawiMikrobiologi.vb</DependentUpon>

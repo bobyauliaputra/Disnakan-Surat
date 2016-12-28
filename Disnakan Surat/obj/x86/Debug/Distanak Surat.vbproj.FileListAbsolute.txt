@@ -24,3 +24,4 @@ C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Dis
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.Pengaturan.resources
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.TambahTerms.resources
 C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.TambahKaryawan.resources
+C:\Users\bobyauliaputra\Documents\Visual Studio 2010\Projects\Disnakan Surat\Disnakan Surat\obj\x86\Debug\Distanak_Surat.TambahUser.resources
